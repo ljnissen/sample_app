@@ -1,0 +1,5 @@
+              Prefix Verb URI Pattern                     Controller#Action
+                root GET  /                               static_pages#home
+   static_pages_help GET  /static_pages/help(.:format)    static_pages#help
+  static_pages_about GET  /static_pages/about(.:format)   static_pages#about
+static_pages_contact GET  /static_pages/contact(.:format) static_pages#contact
